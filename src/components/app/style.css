@@ -17,5 +17,5 @@ body{
     align-items: center;
 }
 .container > .content > div{
-    width: 80%;
+    width: 100%;
 }
