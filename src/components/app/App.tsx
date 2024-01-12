@@ -4,6 +4,7 @@ import DefaultLayout from "../layout/defaultLayout";
 import Nav from "../nav";
 import Hero from "../hero";
 import About from "../about";
+import Menu from "../menu";
 
 const App: React.FC = ()=>{
   return (
@@ -14,6 +15,8 @@ const App: React.FC = ()=>{
             <Hero />
             <div className="content-inside">
               <About />
+              <hr />
+              <Menu />
             </div>
           </div>
           

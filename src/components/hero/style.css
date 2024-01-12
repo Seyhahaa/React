@@ -5,6 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding-top: 100px;
+    display: block;
 }
 div.hero::after{
     content: "Le catering";

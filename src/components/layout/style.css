@@ -2,3 +2,19 @@
     width: 100%;
     position: relative;
 }
+.article-layout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 100px 30px;
+    gap: 15px;
+    
+}
+.article-layout > .image,
+.article-layout > .article {
+    width: 50%;
+}
+.article-layout > .image >img{
+    width: 90%;
+    border-radius: 10px;
+}

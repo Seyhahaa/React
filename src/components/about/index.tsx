@@ -1,19 +1,14 @@
 import React from "react";
 import "./style.css";
+import BodyLayout from "../layout/bodyLayout";
 
 interface AboutProps {}
 
 const About: React.FC<AboutProps> = () => {
   return (
     <>
-      <div className="about">
-        <div className="image">
-          <img className="image"
-            src="https://www.w3schools.com/w3images/tablesetting2.jpg"
-            alt="about"
-          />
-        </div>
-        <div className="article">
+      <BodyLayout image="https://www.w3schools.com/w3images/tablesetting2.jpg">
+        
           <h1 className="title">About Catering</h1>
           <p className="sub-title">Tradition since 1889</p>
           <p className="p-normal">
@@ -32,8 +27,7 @@ const About: React.FC<AboutProps> = () => {
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
             laboris nisi ut aliquip ex ea commodo consequat.
           </p>
-        </div>
-      </div>
+        </BodyLayout>
     </>
   );
 };
