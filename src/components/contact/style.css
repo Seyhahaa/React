@@ -1,0 +1,49 @@
+.contact {
+    width: 100%;
+    padding: 50px 25px;
+
+}
+.contact > .title{
+    font-size: 36px;
+    margin-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.contact > p{
+    margin-bottom: 15px;
+}
+.contact > .desc{
+    font-size: 14px;
+}
+.contact > .address{
+    font-size: 18px;
+    font-weight: 500;
+    color: #607d8b;
+}
+.contact >form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact > form > .form-group{
+    width: 100%;
+}
+.contact > form > .form-group > .form-control{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid rgb(118, 118, 118);
+}
+.contact >form > .btnsubmit{
+    width: 20%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact >form > .btnsubmit:hover{
+    background-color: #b4afaf;
+}

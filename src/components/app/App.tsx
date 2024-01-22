@@ -5,6 +5,7 @@ import Nav from "../nav";
 import Hero from "../hero";
 import About from "../about";
 import Menu from "../menu";
+import Contact from "../contact";
 
 const App: React.FC = ()=>{
   return (
@@ -17,6 +18,8 @@ const App: React.FC = ()=>{
               <About />
               <hr />
               <Menu />
+              <hr />
+              <Contact/>
             </div>
           </div>
           
