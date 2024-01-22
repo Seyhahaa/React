@@ -6,6 +6,7 @@ import Hero from "../hero";
 import About from "../about";
 import Menu from "../menu";
 import Contact from "../contact";
+import Footer from "../footer";
 
 const App: React.FC = ()=>{
   return (
@@ -22,7 +23,7 @@ const App: React.FC = ()=>{
               <Contact/>
             </div>
           </div>
-          
+          <Footer />
       </DefaultLayout>
     </>
   )
